@@ -8,7 +8,15 @@ div #branding{
 	color: white;
 	font-size: 30px;
 	float: left;
+
 }
+div #branding:hover{
+	cursor: pointer;
+	color: blue;
+	font-weight: bold;
+	border-bottom: cyan 2px solid;
+}
+
 header{
 	background: brown;
 	border-bottom: gold 3px solid;
@@ -17,8 +25,8 @@ header{
 .container{
 	margin: auto;
 	overflow: hidden;
-	width: 80%;
-	text-align: center;
+	width: 90%;
+
 }
 
 ul {
@@ -36,14 +44,18 @@ header nav {
 	float: right;
 	padding: 0 20px 0 20px;
 	margin-top: 30px;
-	
-
 }
 
+nav a:hover{
+
+border-bottom: gold 2px solid;
+
+}
 
 div a {
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .main-one{
@@ -69,16 +81,36 @@ font-size: 30px;
 color: white;
 background: tan;
 min-height: 80px;
-
+padding: 0 20px 0 20px;
 
 }
 
 .newsletter form{
 float: right;
 margin: 30px;
+
 }
 
 .newsletter h5{
 float: left;
-padding-bottom: 40px;
+
+}
+
+#main-col{
+	float: left;
+	width: 60%;
+}
+
+#others{
+	float: right;
+	width: 30%;
+}
+
+#dark{
+	color: blue;
+	background: white;
+}
+
+.main{
+	text-align: justify;
 }
